@@ -1,4 +1,3 @@
-Markdown
 
 # Multilingual RAG System for PDF Document Corpus
 
