@@ -15,9 +15,9 @@ TESSERACT_CMD = os.getenv("TESSERACT_CMD", "/usr/bin/tesseract")
 PDF_PATH = "data/HSC26-Bangla1st-Paper.pdf"
 
 # Chunking Parameters
-PARENT_CHUNK_SIZE = 3000 # Example: Larger chunks for parent
-CHILD_CHUNK_SIZE = 500   # Example: Smaller chunks for embeddings
-CHUNK_OVERLAP = 100       # Overlap for child chunks
+PARENT_CHUNK_SIZE = 2500 # Example: Larger chunks for parent
+CHILD_CHUNK_SIZE = 300   # Example: Smaller chunks for embeddings
+CHUNK_OVERLAP = 50       # Overlap for child chunks
 
 # Retrieval Parameters
 K_CHILD_CHUNKS = 10     # Number of child chunks to retrieve
