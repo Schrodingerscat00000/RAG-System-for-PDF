@@ -1,0 +1,12 @@
+pydantic==1.10.13
+langchain
+langchain-community
+langchain-core
+langchain-chroma
+cohere==5.4.0
+voyageai
+pypdfium2
+unstructured[all-docs]
+transformers
+accelerate
+bitsandbytes

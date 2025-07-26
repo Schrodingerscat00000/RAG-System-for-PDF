@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv311/
+
+# Environment variables
+.env
+
+# Chroma DB (optional, if it can be re-generated)
+chroma_db/
+
+# OS-specific
+.DS_Store
+Thumbs.db
